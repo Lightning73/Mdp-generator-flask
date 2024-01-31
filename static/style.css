@@ -1,0 +1,27 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+	background: linear-gradient(100.03deg, #42eeee 0%, #05c24d 98.68%);
+}
+
+.presentation{
+	text-align: center;
+	padding: 60px;
+	margin: 10px;
+	font-family: consolas;
+	font-size: 20px;
+}
+
+
+.generateur{
+	text-align: center;
+	font-family: consolas;
+	font-size: 20px;
+	background-color: rgb(100, 11, 173);
+	margin: 50px 25% 50px 30%;
+	padding: 20px;
+	border-radius: 30px;
+	width: 550px;
+	
+}

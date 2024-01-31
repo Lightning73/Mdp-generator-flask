@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDP Constructor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script defer src="{{ url_for('static', filename='main.js') }}"></script>
+</head>
+<body>
+    <div class="generateur">
+    <h1>Générateur de mot de passe aléatoire</h1>
+    <div class="formulaire">
+        <label>Minuscules <input value="Min" type="checkbox" id="minn"><br></label>
+        <label>Majuscules <input value="Maj" type="checkbox" id="majj"><br></label>
+        <label>Chiffres <input value="chif" type="checkbox" id="chiff"><br></label>
+        <label>Caractères <input value="carac" type="checkbox" id="caract"><br></label> 
+        <label>Longueur <input type="range" id="longueur" min="4" max="20" /><br></label>      
+        <button onclick="onSubmit()"> Génerer </button>
+    </div>
+
+    <p>Votre mot de passe</p>
+    <p id="output"></p>
+    </div>
+
+</body>
+</html>
